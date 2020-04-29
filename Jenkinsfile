@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Holo') {
       steps {
-        doktor
+        sleep 5
       }
     }
 
